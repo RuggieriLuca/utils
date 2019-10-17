@@ -2,7 +2,7 @@ package netutil
 
 import (
 	"encoding/json"
-	"gitlab.com/ruggieri/gonema/pkg/utils"
+	"github.com/lruggieri/utils"
 	"net/http"
 )
 
