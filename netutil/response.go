@@ -18,7 +18,7 @@ func DealWithInternalError(w http.ResponseWriter, iErr error){
 }
 
 type ResponseLayout struct{
-	StatusCode int
+	StatusCode int `json:"-"`
 	Response interface{} `json:"response"`
 	Error string `json:"error,omitempty"`
 	IsInternalError bool `json:"-"`
